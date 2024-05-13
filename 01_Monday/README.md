@@ -12,7 +12,7 @@
 
 | time | activity | slides/links |
 |---|---|---|
-| 2-2:50p | Lecture 1 | [slides](https://github.com/jmou2/PaviaProteinDesign/blob/main/01_Monday/lecture_1.pdf) |
+| 2-2:50p | Lecture 1 | [dropbox](https://www.dropbox.com/scl/fo/vuxoqeknepm0tpyx1wcmy/ANFlm2jiOpafGzb12vklr44?rlkey=49zv6kti2tapr0jafcwhdrym6&e=2&dl=0) |
 | 3-3:30p | Paper 1 | [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) |
 | 3:40-4:30p | Tutorial 1 | [Part 1 - PyMOL Download](https://pymol.org/) <br> [Part 2 - Intro to ProDy notebook](https://github.com/jmou2/PaviaProteinDesign/blob/main/01_Monday/tutorial_1_intro_to_prody.ipynb) |
 | 4:30-5:20p | Task 1 |[Part 2 - Analyzing an AlphaFolded structure notebook](https://github.com/jmou2/PaviaProteinDesign/blob/main/01_Monday/task_1_af2.ipynb) |
