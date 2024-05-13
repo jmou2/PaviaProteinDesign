@@ -1,7 +1,8 @@
 # Introduction to Computational Protein Design
 
 ## Logistics
-- Monday to Friday 2-6p May 13-17
+- May 13-17
+- Monday to Friday 2-6p 
 
 ## Schedule and Learning Objectives
 
@@ -22,6 +23,9 @@
 
 #### Day 5:
 
+
+## Learning Materials
+Learning materials will be distributed through this github repository. Materials including slides, links, tutorials, and tasks will be added before the day's lesson in the appropriate folder. Further instructions for each day's activities, including a schedule, will be in each folder.
 
 ## Setup
 
