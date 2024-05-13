@@ -30,6 +30,8 @@ Another useful resource is the cheat sheet: https://pymolwiki.org/index.php/Chea
 
 Once you feel confident using pymol, proceed to the "Intro to ProDy notebook" in the slides/links column above. 
 
+If you feel you need an introduction to the Python programming language before this tutorial, try going through this intro to python notebook [here](https://colab.research.google.com/github/data-psl/lectures2020/blob/master/notebooks/01_python_basics.ipynb). 
+
 
 ### Task 1 - Judging electron density and analyzing an AlphaFolded structure
 
@@ -37,10 +39,9 @@ In the first part of task 1, you will analyze the electron density of a structur
 
 | PDB ID | problem | 
 |---|---|
-| ABCD 1 | problem description |
-| ABCD 1 | problem description |
-| ABCD 1 | problem description |
-| ABCD 1 | problem description |
+| 256b.pse | problem description |
+| sortase.pse | problem description |
+| streptavidin.pse | problem description |
 
 In the second part of task 1, you will choose a solved crystral structure, AlphaFold it in single sequence mode, and align and calculate the RMSD using ProDy. Use the "Analyzing an AlphaFolded structure" notebook in the slides/links column above.
 
