@@ -12,10 +12,12 @@
 - Understand sequence <-> structure relationships
 - Understand underpinnings of design approaches
 - Gain familiariy with modern design methods
-- Learn basic code to faciliate customization: Prody, Pytorch, Matplotlib, Plotly
 
+#### Day 2: Introduction to protein design tools part 2
 
-#### Day 2:
+- Understand electron density maps and validation reports
+- Learn Python-based protein design tools: ProDy, AlphaFold
+- Understand how to make mutations and use AlphaFold to assess structures
 
 #### Day 3:
 
