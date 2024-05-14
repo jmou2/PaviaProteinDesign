@@ -4,6 +4,9 @@
 - May 13-17
 - Monday to Friday 2-6p 
 
+All slides will be on the [dropbox](https://www.dropbox.com/scl/fo/vuxoqeknepm0tpyx1wcmy/ANFlm2jiOpafGzb12vklr44?rlkey=49zv6kti2tapr0jafcwhdrym6&e=2&dl=0).
+
+
 ## Schedule and Learning Objectives
 
 #### Day 1: Introduction to protein design tools
