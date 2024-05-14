@@ -11,7 +11,6 @@
 | 2-2:30p | Tutorial 1 - Electron Density |  |
 | 2:30-3p | Paper Lecture 1 - AlphaFold 2 | [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2)  |
 | 3-4p | Tutorial 2 - ProDy and AlphaFold | [Part 1 - ProDy](https://github.com/jmou2/PaviaProteinDesign/blob/main/02_Tuesday/tutorial_2_intro_to_prody.ipynb) <br> [Part 2 - AlphaFold](https://github.com/jmou2/PaviaProteinDesign/blob/main/02_Tuesday/tutorial_2_alphafold.ipynb)
-| |
 | 4-4:30p | Lecture 2 - Coiled Coils | |
 | 4:30-5:30p | Tutorial 3 - Designing Coiled Coil proteins with AlphaFold |  |
 | 5:30-6p | Introduction to Final Project |  |
