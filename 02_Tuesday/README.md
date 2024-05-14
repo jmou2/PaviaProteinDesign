@@ -20,8 +20,11 @@ All slides will be on the [dropbox](https://www.dropbox.com/scl/fo/vuxoqeknepm0t
 In this tutorial, we will continue yesterday's exercise of looking at electron densities. 
 
 In pymol, type the following:
+
 `fetch 3ry2` - download the streptavidin-biotin complex structure 
+
 `fetch 3ry2, type=2fofc` - download the electron density map
+
 `fetch 3ry2, type=fofc` - download the omit map
 
 Go to "wizard" --> "density"
