@@ -1,7 +1,6 @@
 ## Day 2: Introduction to protein design tools part 2
 
-### Learning objectives
-- 
+All slides will be on the [dropbox](https://www.dropbox.com/scl/fo/vuxoqeknepm0tpyx1wcmy/ANFlm2jiOpafGzb12vklr44?rlkey=49zv6kti2tapr0jafcwhdrym6&e=2&dl=0).
 
 ### Schedule
 
