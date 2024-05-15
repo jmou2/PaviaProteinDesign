@@ -5,5 +5,6 @@
 2. Create a fusion protein
    - orient two proteins relative to one another using PyMol, save a PDB, then use this PDB with RFDiffusion 
 3. Redesign a natural protein using ProteinMPNN and see if AF2 predicts the structure in single seq mode.
-   -  if this works, what are the nature of the amino acid mutations?
-  
+   -  if this works, what is the nature of the amino acid mutations?
+4. Use ProteinMPNN to compute the sequence-specificity profile of a peptide bound to a natural protein and compare with experimentally determined sequence profile
+   - Examples could include TEV protease (1lvb) or PDZ domain (5eyz) or Angiotensin type 1 receptor (6os0) or human BAK (8czf)
