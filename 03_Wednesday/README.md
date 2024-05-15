@@ -47,3 +47,32 @@ To make mutations:
 - "apply"
 - save fasta file ("save filename.fasta, objectname")
 
+
+### Tutorial 2 - Using ProteinMPNN to design protein sequence
+
+ProteinMPNN is a deep learning model that uses a graph neural network (GNN) to design the sequence of a protein given the backbone atom locations. 
+
+The main input options for ProteinMPNN are:
+
+| input | description | example | notes |
+|---|---|---|---|
+| `pdb_input` | path to PDB file | `1ABCD.pdb` | must have all the backbone atoms: N, CA, C, O |
+| `chains_to_design` | chains in which the sequence is designed | `A` designs chain A, `A B` designs chain A & B | If a chain in the PDB file is not listed, it is ignored entirely |
+| `chains_to_fix` | chains in which the sequence is fixed | same as above | The sequence and structure of the fixed chains will be used as context for determining the structure of the designed chains. |
+`residues_to_design` | residues for which sequence is designed |  `1 2 3 6, 1 5 6 8` designs positions 1,2,3,6 on chain A and 1,5,6,8 on chain B |  **the fixed residue numbers begin from 1 (the first residue in the structure), and do not refer to the resnums in the PDB file** |
+`residues_to_fix` | residues for which sequence is fixed | same as above | use either `residues_to_fix` or `residues_to_design` not both|
+`score_only`| do not redesign sequence, score the given sequence of designed chains/residues | `0` = false, `1` = true | required if using ProteinMPNN to score sequences |
+`save_probs` |  whether to save a probability matrix of the output sequence | `0` = false, `1` = true | |
+
+
+Here are some examples of how we might use ProteinMPNN to achieve different goals:
+
+![ProteinMPNN_diagram](https://github.com/jmou2/PaviaProteinDesign/tree/main/03_Wednesday/proteinmpnn_diagram.png)
+
+| design goal | `chains_to_design` | `chains_to_fix` | `residues_to_design` | 
+|---|---|---|---|
+| design or re-design the sequence of a protein structure | `A` | n/a | n/a | 
+| redesign part of a protein chain while keeping rest of sequence fixed | `A` | n/a |`50 51 52 53 54 55 56 57 58 59 60` |
+| design a peptide binder | `B` | `A` | n/a | 
+| design a binding interface | `A B` | n/a | `55 57 59, 2 5 8` |
+
