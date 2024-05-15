@@ -67,7 +67,7 @@ The main input options for ProteinMPNN are:
 
 Here are some examples of how we might use ProteinMPNN to achieve different goals:
 
-![ProteinMPNN_diagram](https://github.com/jmou2/PaviaProteinDesign/tree/main/03_Wednesday/proteinmpnn_diagram.png)
+![ProteinMPNN_diagram](https://github.com/jmou2/PaviaProteinDesign/blob/main/03_Wednesday/proteinmpnn_diagram.png?raw=true)
 
 | design goal | `chains_to_design` | `chains_to_fix` | `residues_to_design` | 
 |---|---|---|---|
@@ -75,4 +75,3 @@ Here are some examples of how we might use ProteinMPNN to achieve different goal
 | redesign part of a protein chain while keeping rest of sequence fixed | `A` | n/a |`50 51 52 53 54 55 56 57 58 59 60` |
 | design a peptide binder | `B` | `A` | n/a | 
 | design a binding interface | `A B` | n/a | `55 57 59, 2 5 8` |
-
