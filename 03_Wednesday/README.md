@@ -10,7 +10,7 @@ All slides will be on the [dropbox](https://www.dropbox.com/scl/fo/vuxoqeknepm0t
 |---|---|---|
 | 2-3p | Tutorial 1 - Designing Coiled Coil proteins with AlphaFold |  |
 | 3-4p | Paper Lecture 1 | [Robust deep learning-based protein sequence design using ProteinMPNN](https://www.science.org/doi/10.1126/science.add2187) |
-| 3-5p | Tutorial 2 - ProteinMPNN |  |
+| 3-5p | Tutorial 2 - ProteinMPNN | [ProteinMPNN Colab](https://colab.research.google.com/drive/1k1BlybK0NDayJINftcgTHAXg7DfQSt4R?usp=sharing)|
 | 5-6p | Final Project Discussion |  |
 
 
@@ -75,3 +75,5 @@ Here are some examples of how we might use ProteinMPNN to achieve different goal
 | 2) Redesign **part** of a protein sequence | `A` | n/a |`50 51 52 53 54 55 56 57 58 59 60` |
 | 3) Design sequence of a **protein binder**| `B` | `A` | n/a | 
 | 4) Design only **binding site residues** | `A B` | n/a | `55 57 59, 2 5 8` |
+
+You can use ProteinMPNN using this [colab notebook](https://colab.research.google.com/drive/1k1BlybK0NDayJINftcgTHAXg7DfQSt4R?usp=sharing).
