@@ -35,3 +35,5 @@ To move the coordinates of a pymol object, let's say protein1, you would click i
 This link might be better to use templates with AF2: https://colab.research.google.com/github/sokrypton/ColabDesign/blob/gamma/af/examples/predict.ipynb
 
 
+## Questions
+For any last-minute questions, send emails to Jody at jodymou@mit.edu and I'll try my best to get back to you! Please include screenshots and a detailed description of your problem if applicable.
