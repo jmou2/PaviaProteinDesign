@@ -31,4 +31,7 @@ To make a scene, type `scene scene_name, store` in PyMol and an icon called `sce
 # How to move coordinates of an object
 To move the coordinates of a pymol object, let's say protein1, you would click in the righthand menu next to the "protein1" object name, A (for "Action"), then "drag coordinates". Then hold the "shift" key on your keyboard, and center-click your mouse on the protein1 object. While holding shift and the center mouse button, move the mouse to drag the protein. Once done, click "Done" in the righthand menu.
 
+# Using custom templates with AlphaFold2
+This link might be better to use templates with AF2: https://colab.research.google.com/github/sokrypton/ColabDesign/blob/gamma/af/examples/predict.ipynb
+
 
