@@ -19,4 +19,4 @@ Each of you will have 10 minutes to present your project results. An example out
 
 You may make 3-4 slides and/or PyMol scenes.
 
-To make a scene, type `scene scene_name, store` in PyMol and an icon called `scene_name` will be created on the bottom left. This scene stores the position, coloring, and visible portions of your PyMol session.
+To make a scene, type `scene scene_name, store` in PyMol and an icon called `scene_name` will be created on the bottom left. This scene stores the position, coloring, and visible portions of your PyMol session. You will also want to save your pymol session: "save" --> "save session as" . This will create a `.pse` file that you can open in PyMol.
