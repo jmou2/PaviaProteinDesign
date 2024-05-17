@@ -24,7 +24,7 @@ To make a scene, type `scene scene_name, store` in PyMol and an icon called `sce
 ## Some Pymol tips
 
 # How to save two proteins in one pdb file
-1. Load two proteins in Pymol. (For this examples, let's call them protein1 and protein2.)
+1. Load two proteins in Pymol. (For this example, let's call them protein1 and protein2.)
 2. If they have the same chain ID, rename one of the chains (for example, of protein2) by typing: alter protein2, chain="B"
 3. To save the two proteins in one pdb, type: save fusion.pdb, protein1 or protein2
 
